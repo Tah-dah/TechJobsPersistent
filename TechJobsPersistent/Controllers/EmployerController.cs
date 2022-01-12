@@ -34,7 +34,7 @@ namespace TechJobsPersistent.Controllers
             return View(employer);
         }
 
-        public IActionResult ProcessAddEmployerForm(AddJobSkillViewModel _employer)
+        public IActionResult ProcessAddEmployerForm(AddEmployerViewModel _employer)
         {
             if (!ModelState.IsValid)
             {
